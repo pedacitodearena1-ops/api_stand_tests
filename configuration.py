@@ -1,0 +1,7 @@
+URL_SERVICE = "https://cnt-a9d9a161-cb4b-4b46-864b-34b7f3ec67fd.containerhub.tripleten-services.com"
+LOG_MAIN_PATH = "/api/logs/main/"
+DOC_PATH = "/docs/"
+WAREHOUSE_PATH = "/big-world/wsdl"
+FOOD_CITY_PATH = "/food-city/calculate.xml"
+CREATE_USER_PATH = "/api/v1/users/"
+PRODUCTS_KITS_PATH = "/api/v1/products/kits/"
