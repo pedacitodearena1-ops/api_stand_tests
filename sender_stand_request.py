@@ -14,4 +14,14 @@ def post_new_user(body):
 # print("Código:", respuesta.status_code)
 # print("Respuesta:", respuesta.json())
 
-#
+## 1. Verificar que el archivo es rastreado por Git
+git ls-files README.md
+
+# 2. Ver el estado — debe mostrar si hay cambios para confirmar
+git status
+
+# 3. Verificar que ya está registrado en el repositorio
+git log --oneline -- README.md
+
+# 4. Ver el contenido que Git tiene guardado
+git show HEAD:README.md
